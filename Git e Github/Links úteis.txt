@@ -1,0 +1,10 @@
+Download Git: https://git-scm.com/downloads
+GitHub pode ser usado atráves do site: https://github.com/
+ou fazendo o download da versão desktop: https://desktop.github.com/
+
+Ajuda para instalação: https://comandosgit.github.io/
+
+Documentação Git: https://git-scm.com/docs/git/pt_BR
+Documentação Github: https://docs.github.com/pt
+
+Comandos git: https://gist.github.com/leocomelli/2545add34e4fec21ec16

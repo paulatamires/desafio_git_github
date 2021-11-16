@@ -1,0 +1,39 @@
+- Obter ajuda:
+git help
+git {comando} --help //ajuda para um comando específico
+
+- Criação de projeto:
+git init // inicializando um repositório em um diretório existente
+Caso você queira começar a controlar o versionamento dos arquivos existentes (diferente de um diretório vazio), você provavelmente deve começar a monitorar esses arquivos e fazer um commit inicial. Você pode realizar isso com poucos comandos
+touch .gitignore
+git add .gitignore
+git commit -m "Versão inicial do projeto"
+
+- Clonando um repositório existente:
+git clone {url} // insira a url do repositório desejado
+
+- Gravando alterações
+git add
+
+- Verificando status
+git status
+
+- Verificando mudanças
+git diff // caso você queria saber exatamente o que foi alterado
+
+- Commit
+git commit -m "Mensagem desejada"
+Commitar arquivos versionados mesmo não estando no stage:
+git commit -a -m "Mensagem desejada"
+Refazer commit quando esquecer de adicionar arquivo no stage:
+git commit -m "Mensagem desejada" --amend // o amend é destrutivo e só deve ser utilizado antes do commit ter sido enviado ao servidor.
+
+- Desfazer:
+git reset --hard // voltar ao último commit
+git reset --soft // voltar ao último commit e mantém os últimos arquivos no stage
+
+-Remover arquivos:
+git rm -f {arquivo}
+
+-Mover arquivos:
+git mv arquivo_origem arquivo_destino
